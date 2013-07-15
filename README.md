@@ -1,0 +1,1 @@
+Test project for uploading files via CXF web service
