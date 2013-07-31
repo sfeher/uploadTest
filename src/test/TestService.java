@@ -15,7 +15,7 @@ public class TestService {
                 try {
                         final InputStream in = handler.getInputStream();
                         final byte[] buff = new byte[8192];
-                        final OutputStream out = new FileOutputStream("//incoming//upload//"+data.getStr());
+                        final OutputStream out = new FileOutputStream("g:\\"+data.getStr());
                         int readed = -1;
                         long sum = 0;
                         long last = System.currentTimeMillis();
